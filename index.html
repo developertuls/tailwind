@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tailwindcssProject</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 <body class="bg-[#1F2123] transition">
@@ -12,7 +14,7 @@
     <div class="container mx-auto">
         <div class="sm:flex justify-between items-center py-5">
             <div class="text-center mb-5">
-                <a href="#" class="text-[#fff] text-1xl sm: text-3xl font-bold animate-pulse "> <span class="text-[#f1c40f]">M</span>aruf web cod<span class="text-[#f1c40f]">ers</span></a>
+                <a href="#" class="text-[#fff] text-6xl sm:text-5xl font-bold animate-pulse "> <span class="text-[#f1c40f] ">M</span>aruf web cod<span class="text-[#f1c40f]">ers</span></a>
             </div>
             <ul class="sm:flex text-xl text-center border-t sm:border-none">
                <li class=" mt-4 sm:mt-0"><a href="#" class="p-3 text-[#f1c40f]">Home</a> </li>
@@ -33,7 +35,16 @@
      
        </div> 
        <div class="text-center">
-        <img src="tail-img/cod2.avif" alt="cod" class="w-[60%]  animate-pulse md:mb-30 mx-auto ">
+        <picture>
+            <!-- <source srcset="tail-img/cod2.avif" type="image/avif">  -->
+            <!-- <img src="tail-img/cod2.jpg" style="width: 40%;  border: 2px solid red;"> -->
+
+        <!-- <img src="tail-img/cod2.png" alt="cod" class="w-[50%] animate-pulse mb-10 mx-auto border border-blue-500"> -->
+
+         <img src="tail-img/m22.webp"  alt="cod" class="w-   animate-pulse md:mb-4 mx-auto "> 
+        <!-- <img src="tail-img/cod2.jpg" alt="cod" class="w-[50%] border border-red-500 animate-pulse mx-auto"> -->
+ 
+    </picture>
        </div>
     </div>
  </header>
@@ -145,7 +156,7 @@
             <input class="block mx-auto w-5/6 sm:w-1/2 h-12 bg-[#fff] border-2 border-orange-800 rounded-lg placeholder:italic placeholder:text-orange-800 px-5 mb-6" type="email " placeholder="Your E-mail ">
 
 
-            <textarea class="block mx-auto bg-[#fff]  w-5/6 sm:w-1/2 h-12 border-2 border-orange-800 rounded-lg placeholder:italic placeholder:text-orange-800 px-5 h-50 py-5" placeholder="Your question"></textarea>
+            <textarea class="block mx-auto bg-[#fff]  w-5/6 sm:w-1/2 h-52 border-2 border-orange-800 rounded-lg placeholder:italic placeholder:text-orange-800 px-5 h-50 py-5" placeholder="Your question"></textarea>
             <button class="block mx-auto bg-[#ffa502] px-8 py-3  mt-6 mb-7 hover:bg-[#f1c40f] hover:text-[#000] transition font-bold  rounded-lg text-xl ">Sen Now</button>
         </form>
     </div>
@@ -202,7 +213,7 @@
 </section>
 
 
-<section class="bg-[#12CBC4] opacity-70   my-10 sm:my-16 md:my-20 lg:my-32 py-10 sm:py-16 md:py-20 lg:py-32 bg-no-repeat bg-left"   style="background-image: url(tail-img/subscribe-bg.png);">
+<section class="bg-[#12CBC4]    my-10 sm:my-16 md:my-20 lg:my-32 py-10 sm:py-16 md:py-20 lg:py-32 bg-no-repeat bg-left"   style="background-image: url(tail-img/subscribe-bg.png);">
     <div class="sm:flex justify-center items-center gap-10 sm:gap-16 md:gap-20 lg:gap-32">
             <div class="text-center text-[#1B1464] font-bold mb-10 sm:mb-0 sm:border-r  sm:pr-28 px-3 py-3 ">
                 <h2 class="text-xl">Newsletter Subscription</h2>
